@@ -50,6 +50,8 @@ class OmdbContainer extends Component {
                 director={this.state.result.Director}
                 genre={this.state.result.Genre}
                 released={this.state.result.Released}
+                plot={this.state.result.Plot}
+                awards={this.state.result.Awards}
               />
             </Card>
           </Col>
