@@ -52,6 +52,7 @@ class OmdbContainer extends Component {
                 released={this.state.result.Released}
                 plot={this.state.result.Plot}
                 awards={this.state.result.Awards}
+                ratings={this.state.result.Ratings}
               />
             </Card>
           </Col>
