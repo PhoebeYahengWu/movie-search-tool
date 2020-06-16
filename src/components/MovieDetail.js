@@ -8,7 +8,6 @@ function MovieDetail(props) {
     <div className="text-center">
       <img alt={props.title} className="img-fluid" src={props.src} style={{ margin: "0 auto" }} />
       <h6>Director(s): {props.director}</h6>
-      {/* <h5>Genre: {props.genre}</h5> */}
       <h6>Released: {props.released}</h6>
       <p>
       <div class="alert alert-primary" role="alert">
