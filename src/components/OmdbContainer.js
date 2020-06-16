@@ -40,6 +40,17 @@ class OmdbContainer extends Component {
     return (
       <Container>
         <Row>
+
+          <Col size="md-4">
+            <Card heading="Search">
+              <SearchForm
+                value={this.state.search}
+                handleInputChange={this.handleInputChange}
+                handleFormSubmit={this.handleFormSubmit}
+              />
+            </Card>
+          </Col>
+
           <Col size="md-8">
             <Card
               heading={this.state.result.Title || "Search for a Movie to Begin"}
@@ -48,20 +59,11 @@ class OmdbContainer extends Component {
                 title={this.state.result.Title}
                 src={this.state.result.Poster}
                 director={this.state.result.Director}
-                genre={this.state.result.Genre}
+                // genre={this.state.result.Genre}
                 released={this.state.result.Released}
                 plot={this.state.result.Plot}
                 awards={this.state.result.Awards}
                 ratings={this.state.result.Ratings}
-              />
-            </Card>
-          </Col>
-          <Col size="md-4">
-            <Card heading="Search">
-              <SearchForm
-                value={this.state.search}
-                handleInputChange={this.handleInputChange}
-                handleFormSubmit={this.handleFormSubmit}
               />
             </Card>
           </Col>
