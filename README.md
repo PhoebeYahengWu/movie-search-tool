@@ -19,10 +19,10 @@ A simple React application with which users can query the OMDB API and display i
 
 
 ## Tech/Framework Used
-
+React, Bootstrap, API
 
 ## Usage
-Enter any movie name in English and click the search button.
+Enter a movie name in English and click the search button.
 
 ## Contributor
 Phoebe Yaheng Wu
@@ -34,4 +34,4 @@ https://omdb-movie-search-tool.herokuapp.com/
 
 ## Questions
 
-For questions about the project contact PhoebeYahengWu or directly at null.
+For questions about the project contact PhoebeYahengWu or directly at wuyaheng2016@gmail.com
