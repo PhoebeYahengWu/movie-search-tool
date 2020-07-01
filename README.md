@@ -13,7 +13,7 @@ A simple React application with which users can query the OMDB API and display i
 
 * Contributor
 
-* links
+* link
 
 * Questions
 
