@@ -22,7 +22,7 @@ A simple React application with which users can query the OMDB API and display i
 React, Bootstrap, API
 
 ## Usage
-Enter a movie name in English and click the search button.
+Enter a movie name in English and click the search button to get the movie ratings and plot.
 
 ## Contributor
 Phoebe Yaheng Wu
