@@ -7,31 +7,26 @@ Movie Info Search is a simple application created using React that allows users 
 
 ## Table of Contents
 
-* Tech/Framework Used
+* [Tech/Framework Used](#TechUsed)
 
-* Usage
+* [link](#Link)
 
-* Contributor
+* [Usage](#usage) 
 
-* link
-
-* Questions
+* [Questions](#Questions)
 
 
-## Tech/Framework Used
+## TechUsed
 React, Bootstrap, API
+
+## Link
+https://omdb-movie-search-tool.herokuapp.com/
 
 ## Usage
 Enter a movie name in English and click the search button to get the movie ratings and plot.
 
-## Contributor
-Phoebe Yaheng Wu
-
-
-## Link to project URL
-https://omdb-movie-search-tool.herokuapp.com/
-
-
 ## Questions
+![user profile image](https://avatars0.githubusercontent.com/u/52837649?v=4)
 
-For questions about the project contact PhoebeYahengWu or directly at wuyaheng2016@gmail.com
+For questions about the project contact PhoebeYahengWu or directly at wuyaheng2016@gmail.com.
+
